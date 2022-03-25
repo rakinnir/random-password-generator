@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8e6c983c8e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <!-- Heading text  -->
+    <h1 class="first-heading">Generate a</h1>
+    <h1 class="second-heading">random password</h1>
+    <p class="message">Never use an insecure password again.</p>
+    <!-- Userinput  -->
+    <input
+      type="value"
+      id="input-value"
+      placeholder="Length of password(0-20)"
+    />
+    <button class="submit-btn" onclick="inputValue()">Submit</button>
+    <br />
+    <button id="btn" onclick="generatePasswords()">
+      <i class="fa-solid fa-bolt"></i> Generate password
+    </button>
+    <br /><br />
+    <hr />
+    <br />
+    <!-- Output password  -->
+    <div>
+      <button class="password" id="clipboard" onclick="myFunction()">
+        ...
+      </button>
+      <button class="password password1">...</button>
+    </div>
+    <div>
+      <button class="password">...</button>
+      <button class="password password1">...</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

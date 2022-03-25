@@ -1,0 +1,91 @@
+body {
+  height: 550px;
+  width: 390px;
+  left: 642px;
+  top: 64px;
+  border-radius: 0px;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 50px;
+}
+
+/* Heading and message  */
+.first-heading,
+.second-heading {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+}
+.second-heading {
+  color: greenyellow;
+  position: relative;
+  bottom: 20px;
+}
+.message {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+  position: relative;
+  bottom: 20px;
+}
+
+/* Userinput  */
+#input-value {
+  height: 24px;
+  border: none;
+  border-radius: 2px;
+  margin: 0 15px 20px 0;
+}
+.submit-btn {
+  width: 60px;
+  height: 26px;
+  border: none;
+  background: #10b981;
+  border-radius: 2px;
+  color: white;
+}
+.submit-btn:hover {
+  background: white;
+  color: #10b981;
+}
+#btn {
+  background: #10b981;
+  border-radius: 2px;
+  border: none;
+  height: 30px;
+  color: white;
+}
+#btn:hover {
+  background: white;
+  color: #10b981;
+}
+/* generate icon */
+.fa-solid {
+  margin-right: 3px;
+  margin-right: 2px;
+}
+
+/* Output Password  */
+.password {
+  text-align: center;
+  width: 173px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  border: none;
+  font-weight: bolder;
+  color: white;
+  margin: 10px 40px 10px 0;
+}
+.password1 {
+  margin-right: 0;
+}
+.password:hover {
+  background-color: #1f2937;
+}

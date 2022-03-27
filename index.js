@@ -1,12 +1,7 @@
 // decalaring global variables
 let outputPassword = document.querySelectorAll(".password")
 const popUp = document.getElementById("pop-up")
-
-// Length of the password
-function inputValue() {
-  let inputValue = document.getElementById("input-value").value
-  return inputValue
-}
+let inputValue = document.getElementById("input-value")
 
 // creating a password of selected length
 function generateSinglePassword() {
@@ -19,7 +14,7 @@ function generateSinglePassword() {
     uppercase + lowercase + numbers + logograms + mathSymbols
   characterString = allCharacters.split("")
   let password = ""
-  let length = inputValue()
+  let length = inputValue.value
   for (let i = 0; i < length; i++) {
     let randomNumber = Math.floor(Math.random() * characterString.length)
     password += characterString[randomNumber]
